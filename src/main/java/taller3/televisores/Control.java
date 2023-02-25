@@ -3,9 +3,7 @@ package taller3.televisores;
 public class Control {
 	private TV tv;
 	
-	public void setCanal(int canal) {
-		tv.setCanal(canal);
-	}
+
 	
     public void turnOn(){
         tv.turnOn();
