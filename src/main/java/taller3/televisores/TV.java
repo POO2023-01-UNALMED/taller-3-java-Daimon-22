@@ -34,54 +34,54 @@ public class TV {
 		return this.estado;
 	}
 /////////////////////////////////////////////////////////
-	public int getCanal() {
-		return canal;
-	}
+    public int getCanal() {
+         return canal;
+     }
 
-	public void setCanal(int canal) {
-		this.canal = canal;
-	}
-	
-	public void canalUp() {
-		if (this.estado==true) {
-			if (this.canal <121 && this.canal >0) {
-				this.canal++;
-			}
-			
-		}
-	}
-	public void canalDown() {
-		if (this.estado==true) {
-			if (this.canal <121 && this.canal >0) {
-				this.canal--;
-			}
-			
-		}
-	}
+     public void setCanal(int canal) {
+         this.canal = canal;
+    }
+
+     public void canalUp() {
+         if (this.estado==true) {
+            if (this.canal >1 && this.canal <= 120) {
+                 this.canal++;
+             }
+
+          }
+     }
+     public void canalDown() {
+         if (this.estado==true) {
+             if (this.canal >=1 && this.canal <120) {
+                  this.canal--;
+              }
+
+           }
+     }
 /////////////////////////////////////////////////////////
-public int getVolumen() {
-return volumen;
-}
+     public int getVolumen() {
+         return volumen;
+     }
 
-public void setVolumen(int volumen) {
-this.volumen = volumen;
-}	
-public void volumenUp() {
-	if (this.estado==true) {
-		if (this.canal <8 && this.canal >0) {
-			this.canal++;
-		}
-		
-	}
-}
-public void volumenDown() {
-	if (this.estado==true) {
-		if (this.canal <8 && this.canal >=0) {
-			this.canal--;
-		}
-		
-	}
-}
+     public void setVolumen(int volumen) {
+         this.volumen = volumen;
+      }	
+     public void volumenUp() {
+         if (this.estado==true) {
+             if (this.volumen >0 && this.volumen <=7) {
+                 this.canal++;
+               }
+
+            }
+      }
+     public void volumenDown() {
+         if (this.estado==true) {
+              if (this.volumen >=0 && this.volumen <7) {
+                  this.canal--;
+               }
+
+             }
+      }
 /////////////////////////////////////////////////////////////
 	public Control getControl() {
 		return control;

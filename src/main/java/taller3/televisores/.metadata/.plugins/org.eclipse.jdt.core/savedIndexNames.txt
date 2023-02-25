@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Sharon\Desktop\taller-1-github-Daimon-22\taller-3-java-Daimon-22\src\main\java\taller3\televisores\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
