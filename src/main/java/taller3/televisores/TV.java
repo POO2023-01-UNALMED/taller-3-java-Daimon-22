@@ -68,7 +68,7 @@ this.volumen = volumen;
 }	
 public void volumenUp() {
 	if (getEstado()==true) {
-		if (this.canal <=7 && this.canal >= 1) {
+		if (this.canal <=7 && this.canal >= 0) {
 			this.canal++;
 		}
 		
@@ -76,7 +76,7 @@ public void volumenUp() {
 }
 public void volumenDown() {
 	if (getEstado()==true) {
-		if (this.canal <=7 && this.canal >= 1) {
+		if (this.canal <=7 && this.canal >= 0) {
 			this.canal--;
 		}
 		
