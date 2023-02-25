@@ -80,7 +80,7 @@ public class TV {
                   this.volumen--;
                }
 
-             }
+            }
       }
 /////////////////////////////////////////////////////////////
 	public Control getControl() {
