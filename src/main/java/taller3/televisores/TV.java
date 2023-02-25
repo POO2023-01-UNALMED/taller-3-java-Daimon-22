@@ -43,7 +43,7 @@ public class TV {
     }
 
      public void canalUp() {
-         if (this.estado==true) {
+         if (getEstado()==true) {
             if (this.canal >1 && this.canal <= 120) {
                  this.canal++;
              }
@@ -51,7 +51,7 @@ public class TV {
           }
      }
      public void canalDown() {
-         if (this.estado==true) {
+         if (getEstado()==true) {
              if (this.canal >=1 && this.canal <120) {
                   this.canal--;
               }
@@ -67,7 +67,7 @@ public class TV {
          this.volumen = volumen;
       }	
      public void volumenUp() {
-         if (this.estado==true) {
+         if (getEstado()==true) {
              if (this.volumen >0 && this.volumen <=7) {
                  this.volumen++;
                }
@@ -75,7 +75,7 @@ public class TV {
             }
       }
      public void volumenDown() {
-         if (this.estado==true) {
+         if (getEstado()==true) {
               if (this.volumen >=0 && this.volumen <7) {
                   this.volumen--;
                }
